@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- HTML5 tiene elementos que ayudan a diferenciar diferentes tipos de contenido. Estos elementos hacen tu código HTML más fácil de leer y ayudan con el posicionamiento en buscadores(Search Engine Optimiztion - SEO) -->
+    <!-- Identifica la seccion principal(main) de esta pagina añadiendo la etiqueta de apertura <main> antes del elemento h1, y la clausura </main> despues del elemento p. -->
+    <main>
+        <!-- Elementos H1 -->
+        <h1>CatPhotoApp</h1>
+        <!--Los Elementos de encabeado h1 a h6 se utililan para indicar la importancia del contenido por debajo de ellos. entre menor sea el numero, el contenido ser mas importante, por lo tanto el elemento h2 es menos importante que el elemento h1. Solo utiliz un elemento h1 por pagina y coloca encabezados de menor importancia debajo de encabezados de mayor impartancion.-->
+        <section>
+            <h2>Cat Photos</h2>
+            <!-- El Elemento P es usado para crear un parrafo de texto en sitios webs. Crea un elemento P debajo de tu elemento h2 y dale el siguiente texto: -->
+            <p>See more <a href="lhttps://freecatphotoapp.com" target="_blank">cats photos</a> in our gallery.</p>
+            <!-- Puedes añadir imagenes a tu sitio web utilizando el elemento IMG. Los elementos img tienen una etiqueta de un elemmento que no necesita etiqueta de cierre se conoce como etiqueta de auto cierre (self closin tag) -->
+            <!-- los atributos HTML son palabras especiales usadas dentro de la etiqueta de apertura de un elemento para controlar el comportamiento del elemento. El atributo src en un elemento img especifica la url(donde se localiza la imagen) -->
+            <!-- Todos los elementos img deben tener un atributo alt. El texto del atributo alt es utilizado y es mostrado en caso de que la imagen falle -->
+            <!-- Puedes hacer un enlace que te llevara a otra pagina con el elemento anchora (a) -->
+            <!-- el texto de un enlace debe colocarse entre la etiqueta de apertura y la etiqueta de cierre de un elemento anchor -->
+            <!-- añade el atributo target con el valor _blank en la etiqueta de apertura, del elemento anchor,para que el enlace abra en una nueva pestaña -->
+           <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a> 
+           <!-- Antes de añadir nuevo contenido, deberias utilizar un elemento Section, para separar el contenido de cat photos, del contenido que añadiremos despues. -->
+        </section>
+        <section>
+            <h2>Cat Lists</h2>
+            <!-- Cuando añades un elemento de titulo de menor rango a la pagina, se da a entender que estas iniciando una nuva sub-seccion -->
+            <h3>Things cats love:</h3>
+            <!-- UL listas desordenadas -->
+            <ul>
+                <li>cat nip</li>
+                <li>laser pointers</li>
+                <li>lasagna</li>
+            </ul>
+            <figure>
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate">
+                <figcaption>Cats <em>love</em> lasagna.</figcaption>
+                <!-- El elemento figure representa contenido independiente y te permitira asociar una imagen a un descripcion -->
+                <!-- El elemento figcaption, se utiliza para añadir una descripcion o leyenda para describir una imagen anidada en un elemento figure -->
+            </figure>
+            <h3>Top 3 things cats hate:</h3>
+            <!-- Ol Listas ordenadas -->
+            <ol>
+                <li>flea treatment</li>
+                <li>thunder</li>
+                <li>other cats</li>
+            </ol>
+            <figure>
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+                <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
+            </figure>
+        </section>
+        <section>
+            
+        </section>
+    </main>
+</body>
+</html>
